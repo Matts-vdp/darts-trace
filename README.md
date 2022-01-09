@@ -1,5 +1,10 @@
 Matts Van Der Poel
 # Darts tracer
+When throwing a dart the trajectory should be fluent. When you're training its common to have a
+wobble in the trajectory but it’s hard to detect this when focussing on the throw. To try to detect this
+a video is made of the throw.
+This program traces the front and back of the dart. This way you can clearly see the difference in trajectory between both.
+This can be seen in the example below.
 
 ## Usage
 - Run Darts_trace.py
@@ -20,3 +25,9 @@ To do this follow these steps:
 - If done correct the contour of this object will become visible
 - Press any button when done selecting
 - The selected shape is now saved 
+
+## Example
+An example of a bad throw:
+
+https://user-images.githubusercontent.com/70054706/148682331-47a68dac-583a-4c57-a210-ccc140e054e4.mp4
+
